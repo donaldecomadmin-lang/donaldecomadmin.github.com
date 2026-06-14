@@ -723,6 +723,61 @@
         width: 100%;
       }
     }
+    .mini-order{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    background:#fff;
+    padding:14px;
+    border-radius:12px;
+}
+
+.review-avatar{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#2196f3;
+    color:white;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+}
+
+.review-info{
+    flex:1;
+}
+
+.review-email{
+    color:#777;
+    font-size:14px;
+}
+
+.review-stars{
+    color:#ffb400;
+    font-size:14px;
+    margin-top:2px;
+}
+
+.review-text{
+    margin-top:4px;
+    font-size:16px;
+    line-height:1.3;
+}
+
+.review-date{
+    margin-top:10px;
+    color:#999;
+    font-size:13px;
+}
+
+.review-photo img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:10px;
+}
   </style>
 </head>
 <body>
@@ -807,12 +862,38 @@ Chaque balise <li> = 1 avantage
       </div>
 
       <div class="mini-order">
-        <div>
-          <strong>Plusieurs futures mamans commandent ce modèle aujourd'hui.</strong>
-          <span>Commande confirmée sur WhatsApp avant livraison.</span>
-        </div>
-        <div class="mini-photo" aria-label="Miniature de la ceinture"><img src="images/ceinture-face.jpg" alt=""></div>
-      </div>
+
+  <div class="review-avatar">
+    S
+  </div>
+
+  <div class="review-info">
+
+    <div class="review-email">
+      Se****@gmail.com
+    </div>
+
+    <div class="review-stars">
+      ★★★★★
+    </div>
+
+    <div class="review-text">
+      Excellent produit et c'est simple à utiliser.
+    </div>
+
+    <div class="review-date">
+      Acheteur vérifié | 21 janv. 2026
+    </div>
+
+  </div>
+
+  <div class="review-photo">
+    <img src="images/avis-client.webp" alt="Photo cliente">
+  </div>
+<div class="mini-order">...</div>
+<div class="mini-order">...</div>
+<div class="mini-order">...</div>
+</div>
 
       <!-- ==================================================
 FAQ
